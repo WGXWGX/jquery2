@@ -93,17 +93,6 @@ $(function(){
 			left: (-4 * $(this).index()) * 195
 		},800);
 	});
-	//最新动态
-	// var $tooltipClass = $('.tooltip');
-	// $('.tooltip').hover(function(e){
-	// 	this.myTitle = this.title;
-	// 	var $toolTip = $('<div id="tooltip" style="left:'+(e.pageX+30)+'px;top:'+(e.pageY+30)+'px;">'+this.myTitle+'</div>');
-	// 	$toolTip.appendTo('body').show('fast');
-	// 	this.title = '';
-	// },function(){
-	// 	this.title = this.myTitle;
-	// 	$('#tooltip').remove();
-	// });
 	var	$tooltipClass = $('.tooltip');
 	$tooltipClass.hover(function(e){
 		this.myTitle = this.title;
